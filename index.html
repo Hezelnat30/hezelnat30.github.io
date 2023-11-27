@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS STYLE -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- CSS BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="shortcut icon" type="image/x-icon" href="images/iconhead.jpg" />
+
+    <!-- ICON BOOTSTRAP -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+
+    <!-- ANIMATION ON SCROLL -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <title>Justin Portfolio</title>
+</head>
+
+<body>
+    <!-- NAVBAR START -->
+    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm p-3 fixed-top" style="background-color: #0096c7">
+        <div class="container fw-medium">
+            <a class="navbar-brand ms-md-5" href="#">
+                <img src="images/iconnavbar.jpg" alt="icon-navbar" width="35" height="35"
+                    class="d-inline-block text-center">
+                Justin Hezelnat
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <ul class="navbar-nav ms-auto me-md-5">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#gallery">Gallery</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" aria-current="page" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- NAVBAR END -->
+    <!-- JUMBOTRON START -->
+    <section class="jumbotron text-center">
+        <img src="images/gallery/2.jpg" alt="Justin Hezelnat" width="250px" class="rounded-circle img-thumbnail" />
+        <div class="typography mt-2">
+            <h1 class="display-4">Justin Hezelnat</h1>
+            <p class="lead"></p>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#f3f5f8" fill-opacity="1"
+                d="M0,64L48,85.3C96,107,192,149,288,149.3C384,149,480,107,576,85.3C672,64,768,64,864,90.7C960,117,1056,171,1152,186.7C1248,203,1344,181,1392,170.7L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+            </path>
+        </svg>
+    </section>
+    <!-- JUMBOTRON END -->
+
+    <!-- ABOUT START -->
+    <section id="about">
+        <div class="container">
+            <div class="row text-center mb-3">
+                <div class="col">
+                    <h2>ABOUT ME</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center fs-5 text-center">
+                <div class="col-md-4 mb-3" data-aos="fade-right" data-aos-duration="1000">Lorem ipsum dolor sit amet
+                    consectetur adipisicing elit. Necessitatibus esse
+                    accusamus
+                    nulla voluptate omnis hic quas eveniet, vel quisquam, nihil repellat provident, quos molestiae
+                    atque!</div>
+                <div class="col-md-4 mb-3" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="150">Lorem
+                    ipsum dolor sit amet
+                    consectetur adipisicing elit. Totam, cum dolorem veniam
+                    voluptatum doloremque repellat similique soluta, blanditiis vero nobis consectetur autem quaerat
+                    ipsam perspiciatis accusantium, laborum commodi? Illum, incidunt.</div>
+            </div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#b3daf7" fill-opacity="1"
+                d="M0,128L60,106.7C120,85,240,43,360,64C480,85,600,171,720,213.3C840,256,960,256,1080,224C1200,192,1320,128,1380,96L1440,64L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z">
+            </path>
+        </svg>
+    </section>
+    <!-- ABOUT END -->
+
+    <!-- PROJECTS START -->
+    <section id="projects">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col mb-3">
+                    <h2>MY PROJECTS</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-4 mb-3">
+                    <div class="card" data-aos="flip-left" data-aos-duration="750">
+                        <img src="images/projects/2.jpg" class="card-img-top" alt="projects1">
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card" data-aos="flip-left" data-aos-duration="750" data-aos-delay="75">
+                        <img src="images/projects/1.jpg" class="card-img-top" alt="projects2">
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card" data-aos="flip-left" data-aos-duration="750" data-aos-delay="150">
+                        <img src="images/projects/3.jpg" class="card-img-top" alt="projects3">
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card" data-aos="flip-right" data-aos-duration="750" data-aos-delay="225">
+                        <img src="images/projects/4.jpg" class="card-img-top" alt="projects4">
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card" data-aos="flip-right" data-aos-duration="750" data-aos-delay="300">
+                        <img src="images/projects/5.jpg" class="card-img-top" alt="projects5">
+                        <div class="card-body">
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#f3f5f8" fill-opacity="1"
+                d="M0,192L48,192C96,192,192,192,288,170.7C384,149,480,107,576,122.7C672,139,768,213,864,208C960,203,1056,117,1152,90.7C1248,64,1344,96,1392,112L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+            </path>
+        </svg>
+    </section>
+    <!-- PROJECTS END -->
+
+    <!-- GALLERY START -->
+    <section id="gallery">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col mb-3">
+                    <h1>GALLERY</h1>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-4 col-lg-3">
+                    <a href="#">
+                        <img src="images/gallery/1.jpg" alt="gambar1" class="img-fluid img-gallery pb-4">
+                    </a>
+                </div>
+                <div class="col-md-4 col-lg-3">
+                    <a href="#">
+                        <img src="images/gallery/2.jpg" alt="gambar1" class="img-fluid img-gallery pb-4">
+                    </a>
+                </div>
+                <div class="col-md-4 col-lg-3">
+                    <a href="#">
+                        <img src="images/gallery/3.jpg" alt="gambar1" class="img-fluid img-gallery pb-4">
+                    </a>
+                </div>
+                <div class="col-md-4 col-lg-3">
+                    <a href="#">
+                        <img src="images/gallery/4.jpg" alt="gambar1" class="img-fluid img-gallery pb-4">
+                    </a>
+                </div>
+                <div class="col-md-4 col-lg-3">
+                    <a href="#">
+                        <img src="images/gallery/5.jpg" alt="gambar1" class="img-fluid img-gallery pb-4">
+                    </a>
+                </div>
+                <div class="col-md-4 col-lg-3">
+                    <a href="#">
+                        <img src="images/gallery/6.jpg" alt="gambar1" class="img-fluid img-gallery pb-4">
+                    </a>
+                </div>
+                <div class="col-md-4 col-lg-3">
+                    <a href="#">
+                        <img src="images/gallery/7.jpg" alt="gambar1" class="img-fluid img-gallery pb-4">
+                    </a>
+                </div>
+                <div class="col-md-4 col-lg-3">
+                    <a href="#">
+                        <img src="images/gallery/8.jpg" alt="gambar1" class="img-fluid img-gallery pb-4">
+                    </a>
+                </div>
+                <div class="col-md-4 col-lg-3">
+                    <a href="#">
+                        <img src="images/gallery/10.jpg" alt="gambar1" class="img-fluid img-gallery pb-4">
+                    </a>
+                </div>
+                <div class="col-md-4 col-lg-3">
+                    <a href="#">
+                        <img src="images/gallery/11.jpg" alt="gambar1" class="img-fluid img-gallery pb-4">
+                    </a>
+                </div>
+                <div class="col-md-4 col-lg-3">
+                    <a href="#">
+                        <img src="images/gallery/12.jpg" alt="gambar1" class="img-fluid img-gallery pb-4">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#b3daf7" fill-opacity="1"
+                d="M0,32L48,37.3C96,43,192,53,288,85.3C384,117,480,171,576,176C672,181,768,139,864,128C960,117,1056,139,1152,138.7C1248,139,1344,117,1392,106.7L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+            </path>
+        </svg>
+    </section>
+
+    <!-- GALLERY END -->
+
+    <!-- CONTACT ME START -->
+    <section id="contact">
+        <div class="container">
+            <div class="row text-center mb-4">
+                <div class="col">
+                    <h2>CONTACT ME</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <form class="mb-5">
+                        <div class="mb-3">
+                            <label for="name" class="form-label fw-medium">Nama Lengkap</label>
+                            <input type="text" class="form-control shadow-sm" id="name" aria-describedby="name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label fw-medium">Email</label>
+                            <input type="email" class="form-control shadow-sm" id="email" aria-describedby="email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="pesan" class="form-label fw-medium">Pesan</label>
+                            <textarea class="form-control shadow-sm" id="pesan" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn text-white" style="background-color:#0096c7">Kirim</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#0096c7" fill-opacity="1"
+                d="M0,160L48,176C96,192,192,224,288,224C384,224,480,192,576,192C672,192,768,224,864,224C960,224,1056,192,1152,181.3C1248,171,1344,181,1392,186.7L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+            </path>
+        </svg>
+    </section>
+    <!-- CONTACT ME END -->
+
+    <!-- FOOTER START -->
+    <section id="footer" class="footer text-white text-center pb-3">
+        <div class="container">
+            <div class="d-flex justify-content-center iconsocial mb-3">
+                <a class="fs-5" href="https://wa.me/087875438248/?text=Halo"><i class="bi bi-whatsapp"></i></a>
+                <a class="fs-5" href="https://www.instagram.com/justin.hezelnat30"><i class="bi bi-instagram"></i></a>
+                <a class="fs-5" href=""><i class="bi bi-twitter-x"></i></a>
+                <a class="fs-5" href="https://www.facebook.com/justin.hezelnat"><i class="bi bi-facebook"></i></a>
+                <a class="fs-5" href="https://www.linkedin.com/in/justin-hezekiel-b735b826a"><i
+                        class="bi bi-linkedin"></i></a>
+            </div>
+        </div>
+        <footer>
+            <p>Copyright &copy;2023 Created with <i class="bi bi-heart-fill text-danger"></i> by <a
+                    href="https://www.instagram.com/justin.hezelnat30"
+                    class="text-white text-decoration-none fw-bold">Justin
+                    Hezelnat</a></p>
+        </footer>
+    </section>
+    <!-- FOOTER END -->
+
+    <!-- BOOTSTRAP JAVASCRIPT -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+    <!-- AOS SCRIPT -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        const galleryImage = document.querySelectorAll('.img-gallery');
+
+        galleryImage.forEach((img, i) => {
+            img.dataset.aos = 'fade-down';
+            img.dataset.aosDelay = i * 75;
+            img.dataset.aosDuration = 1000;
+        })
+
+        AOS.init({
+            once: true,
+        });
+    </script>
+
+    <!-- GSAP SCRIPT -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/TextPlugin.min.js"></script>
+    <script>
+        gsap.registerPlugin(TextPlugin)
+        gsap.to('.lead', { duration: 1.2, delay: 1, text: 'Guitarist | Ur Fav Boy' })
+        gsap.from('.navbar', { duration: 1, y: -100, opacity: 0 });
+        gsap.from('.jumbotron img', { duration: 1, y: -100, opacity: 50, ease: 'bounce' });
+        gsap.from('.display-4', { duration: 1, x: -50, opacity: 0, delay: 0.5, ease: 'back' });
+    </script>
+
+</body>
+
+</html>
